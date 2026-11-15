@@ -1,6 +1,6 @@
 {
   "installer": {
-    "version": "0.1.1",
+    "version": "0.1.0",
     "download_url": "https://github.com/timinside/bbwebInstaller/releases/latest/download/bbwebinstaller.exe"
   },
   "projects": [
@@ -29,24 +29,13 @@
       "args": ["/SILENT", "/NORESTART"]
     },
     {
-      "id": "bbruntime-offline",
-      "name": "bbruntime (offline installer)",
-      "version": "1.4",
-      "url": "https://github.com/timinside/bbruntime/releases/latest/download/bbruntimeSetupOffline.exe",
-      "file": "bbruntimeSetupOffline.exe",
-      "args": ["/SILENT", "/NORESTART"],
-      "installed_version_path": "C:\\Program Files\\bbzer0\\bbruntime\\ver.ini",
-      "latest_version_url": "https://raw.githubusercontent.com/timinside/bbruntime/refs/heads/main/VERSION.ini"
-    },
-    {
-      "id": "bbruntime-online",
-      "name": "bbruntime (online installer)",
-      "version": "1.3",
+      "id": "bbruntime",
+      "name": "bbruntime",
+      "version": "1.2",
       "url": "https://github.com/timinside/bbruntime/releases/latest/download/bbruntimeSetup.exe",
       "file": "bbruntimeSetup.exe",
       "args": ["/SILENT", "/NORESTART"],
-      "installed_version_path": "C:\\Program Files\\bbzer0\\bbruntime\\ver.ini",
-      "latest_version_url": "https://raw.githubusercontent.com/timinside/bbruntime/refs/heads/main/VERSION.ini"
+      "installed_version_path": "C:\\Program Files\\bbzer0\\bbruntime\\ver.ini"
     },
     {
       "id": "nextjppm",
