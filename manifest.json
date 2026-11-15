@@ -1,7 +1,7 @@
 {
   "installer": {
     "version": "0.1.0",
-    "download_url": "https://github.com/timinside/bbwebInstaller/releases/latest/download/bbwebinstaller.exe"
+    "download_url": "https://github.com/timinside/bbwebInstaller/releases/latest/download/bbwebInstaller.exe"
   },
   "projects": [
     {
