@@ -1,0 +1,60 @@
+{
+  "installer": {
+    "version": "0.1.0",
+    "download_url": "https://github.com/timinside/bbwebInstaller/releases/latest/download/bbwebinstaller.exe"
+  },
+  "projects": [
+    {
+      "id": "10tweaker",
+      "name": "10tweaker",
+      "version": "1.2.9.1",
+      "url": "https://github.com/timinside/10tweaker/releases/latest/download/XTweakerSetup.exe",
+      "file": "XTweakerSetup.exe",
+      "args": ["/SILENT", "/NORESTART"]
+    },
+    {
+      "id": "flaxyide",
+      "name": "FlaxyIDE",
+      "version": "17.2.2",
+      "url": "https://github.com/timinside/BetterDevelNext/releases/latest/download/BetterDevelNextSetup.exe",
+      "file": "BetterDevelNextSetup.exe",
+      "args": ["/SILENT", "/NORESTART"]
+    },
+    {
+      "id": "lunaclean",
+      "name": "LunaClean",
+      "version": "2.0.0",
+      "url": "https://github.com/timinside/LunaClean/releases/latest/download/Setup.exe",
+      "file": "LunaCleanSetup.exe",
+      "args": ["/SILENT", "/NORESTART"]
+    },
+    {
+      "id": "bbruntime-offline",
+      "name": "bbruntime (offline installer)",
+      "version": "1.2",
+      "url": "https://github.com/timinside/bbruntime/releases/latest/download/bbruntimeSetupOffline.exe",
+      "file": "bbruntimeSetupOffline.exe",
+      "args": ["/SILENT", "/NORESTART"],
+      "installed_version_path": "C:\\Program Files\\bbzer0\\bbruntime\\ver.ini",
+      "latest_version_url": "https://raw.githubusercontent.com/timinside/bbruntime/refs/heads/main/VERSION.ini"
+    },
+    {
+      "id": "bbruntime-online",
+      "name": "bbruntime (online installer)",
+      "version": "1.2",
+      "url": "https://github.com/timinside/bbruntime/releases/latest/download/bbruntimeSetup.exe",
+      "file": "bbruntimeSetup.exe",
+      "args": ["/SILENT", "/NORESTART"],
+      "installed_version_path": "C:\\Program Files\\bbzer0\\bbruntime\\ver.ini",
+      "latest_version_url": "https://raw.githubusercontent.com/timinside/bbruntime/refs/heads/main/VERSION.ini"
+    },
+    {
+      "id": "nextjppm",
+      "name": "NextJPPM",
+      "version": "0.8.0",
+      "url": "https://github.com/timinside/NextJPPM/releases/latest/download/NextSetup.exe",
+      "file": "NextSetup.exe",
+      "args": ["/SILENT", "/NORESTART"]
+    }
+  ]
+}
