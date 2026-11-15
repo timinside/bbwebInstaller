@@ -31,7 +31,7 @@
     {
       "id": "bbruntime-offline",
       "name": "bbruntime (offline installer)",
-      "version": "1.2",
+      "version": "1.4",
       "url": "https://github.com/timinside/bbruntime/releases/latest/download/bbruntimeSetupOffline.exe",
       "file": "bbruntimeSetupOffline.exe",
       "args": ["/SILENT", "/NORESTART"],
@@ -41,7 +41,7 @@
     {
       "id": "bbruntime-online",
       "name": "bbruntime (online installer)",
-      "version": "1.2",
+      "version": "1.3",
       "url": "https://github.com/timinside/bbruntime/releases/latest/download/bbruntimeSetup.exe",
       "file": "bbruntimeSetup.exe",
       "args": ["/SILENT", "/NORESTART"],
