@@ -1,6 +1,6 @@
 [package]
 name = "bbwebinstaller"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "Web installer for bbweb projects"
 license = "MIT"
